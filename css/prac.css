@@ -1,0 +1,10 @@
+img{
+  position: absolute;
+  transform:rotate(25deg);
+}
+@media (max-width:1028px) {
+  img{
+    transform: rotate(0);
+  }
+
+}

@@ -1,0 +1,163 @@
+body{
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
+}
+h1,h2{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h1{
+  padding:0 0 4.5rem;
+  margin: 20px;
+  }
+h2{
+  color:#fff;
+}
+p{
+  color: #8f8f8f;
+  font-family: "Ubuntu";
+}
+/* Sections */
+.colored-sec{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-sec{
+background-color: #fff;
+}
+/* Navbar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
+
+/* Title */
+#title{
+  text-align: left;
+}
+.iphone-img{
+  width: 45%;
+  transform: rotate(25deg);
+  position:relative;
+  right: 15%;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+  font-weight: lighter;
+}
+.container-fluid{
+  padding: 3%;
+  padding-left: 15%;
+}
+
+
+/* Features */
+#features{
+  padding: 7% 15%;
+  position:relative;
+}
+
+.icon{
+  color: #ef8172;
+  width: 25%;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonial */
+#testimonials{
+  background-color: #ef8172;
+}
+.carousel-item{
+  padding: 2% 20%;
+}
+
+.testimonial-image{
+  width: 100px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 10%;
+}
+.brand{
+  margin: 20px 20px 50px;
+  width: 250px;
+}
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+}
+.price{
+  color: #000;
+}
+.pricing-colm{
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta{
+  padding: 15%;
+}
+.cta{
+  font-family: "Montserrat",sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer{
+  padding: 7% 15%;
+}
+.ic{
+  padding: 20px;
+}
+
+/* Media Querry */
+@media (max-width : 1028px)  {
+  #title{
+    text-align: center;
+  }
+  .iphone-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+.cor-head{
+  padding-top: 40px;
+  padding-bottom: 0px;
+
+}
+
+.payD{
+  text-decoration: none;
+  color: white;
+}
+
+.payW{
+  text-decoration: none;
+  color: black;
+}
+.socio-links{
+  color: black;
+}
